@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<div id="i"></div><br>
+	<div id="pp"></div>
+	<style>
+		
+		#i{
+			background-color : red ;
+			height : 300px;
+			width : 300px;
+			animation-name: ani1;
+			animation-duration: 4s;
+			animation-duration: 10s;
+		}
+		
+		#pp{
+			background-color : red ;
+			height : 200px;
+			width : 200px;
+			animation-name: ani2;
+			animation-duration: 4s;
+			animation-duration: 10s;
+		}
+		
+		@keyframes ani1{
+			from{background-color: red; }
+			to{background-color: blue;}
+		}
+
+		@keyframes ani2{
+			0%{background-color: red; }
+			25%{background-color: blue;}
+			50%{background-color: yellow;}
+			75%{background-color: green;}
+			100%{background-color: violet;}
+		}
+	</style>
